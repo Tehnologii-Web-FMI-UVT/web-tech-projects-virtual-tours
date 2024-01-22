@@ -1,0 +1,1 @@
+[08-Nov-2023 16:47:12 UTC] PHP Fatal error:  Trait 'App\Controllers\ResponseTrait' not found in /home/r114611etou/public_html/app/Controllers/AgencyMain.php on line 6

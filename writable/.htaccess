@@ -1,0 +1,18 @@
+<IfModule mod_authz_core.c>
+    # Deny access to everything by default
+    Require all denied
+
+    # Allow access to image files
+    <FilesMatch "\.(?i:jpg|jpeg|png|gif|bmp|svg|pdf)$">
+        Require all granted
+    </FilesMatch>
+</IfModule>
+
+<IfModule !mod_authz_core.c>
+    Deny from all
+
+    # Allow access to image files for servers not using mod_authz_core
+    <FilesMatch "\.(?i:jpg|jpeg|png|gif|bmp|svg|pdf)$">
+        Allow from all
+    </FilesMatch>
+</IfModule>

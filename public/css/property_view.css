@@ -1,0 +1,45 @@
+.about-content{
+    background: linear-gradient(161deg, #26282b 0%, #9f8054 49%, #26282b 100%);
+    color:white;
+    }
+    .property-features {
+  list-style: none;
+  margin: 0;
+  margin-left: 50px;
+}
+
+.property-features li {
+  margin-bottom: 10px;
+  text-indent: -2em;
+}
+
+.property-features i {
+  margin-right: 8px;
+  color: #5c6bc0; /* Choose a color that fits the design */
+}
+.agency-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.agency-details li {
+  margin-bottom: 10px;
+  padding-left: 70px;
+  text-indent: -2em;
+  line-height: 1.6; /* Adjust line-height for better readability */
+}
+
+.agency-details i {
+  margin-right: 8px;
+  color: white; /* Or any other color that fits your site's theme */
+}
+
+.agency-details a {
+  color: #337ab7; /* Or any other color that fits your site's theme */
+  text-decoration: none;
+}
+
+.agency-details a:hover {
+  text-decoration: underline;
+}

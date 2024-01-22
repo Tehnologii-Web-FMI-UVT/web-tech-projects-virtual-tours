@@ -59,10 +59,10 @@
 <?= $this->include('frontwebsite/homepage_elements/blog') ?>
 
 <!-- end recent-posts -->
-<section class="property-customization">
+<!-- <section class="property-customization">
   <div class="video-bg">
     <video src="<?php echo base_url()?>/public/videos/video01.mp4" loop autoplay muted></video>
-  </div>
+  </div> -->
   <!-- end video-bg -->
   <?= $this->include('frontwebsite/homepage_elements/about_our_estates') ?>
 
